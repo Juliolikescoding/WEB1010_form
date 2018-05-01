@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom:1px solid black;
+    min-width: 100vw;
+    padding: 4vh 0vw 2vh 4vw;
+}
+.title{
+    display: inline-block;
+    font-size: 30px;
+}
+.links{
+    display:inline-block;
+    float: right;
+    transform: translateX(-10vw);
+    line-height: 6vh;
+}
+.sidebar{
+    display:inline-block;
+    position: absolute;
+    border-right: 1px solid black;
+    min-width: 30vw;
+    max-width:30vw;
+    min-height: 700px;
+
+}
+.main{
+    display:inline-block;
+    position: absolute;
+    right:0;
+    min-width: 65vw;
+    max-width: 65vw;
+    min-height: 700px;
+}
+footer{
+    position: absolute;
+    top: 776px;
+    min-width: 108vw;
+    border-top: 1px solid red;
+}
+.main form{
+    max-width:35vw;
+    margin: 8vw 8vh 9vw 9vh;
+
+}
+.main input{
+    display: block;
+    margin-bottom: 2.5vh;
+}
